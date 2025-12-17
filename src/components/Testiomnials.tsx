@@ -30,7 +30,7 @@ const TestimonialCarousel: React.FC = () => {
   });
 
   return (
-    <section className="w-full py-16 bg-white">
+    <section className="w-full py-16 my-10 bg-white">
       {/* Heading */}
       <div className="text-center mb-10">
         <h2 className="text-2xl md:text-3xl font-semibold">
@@ -60,13 +60,13 @@ const TestimonialCarousel: React.FC = () => {
 
         {/* Carousel */}
         <div className="overflow-hidden flex-1" ref={emblaRef}>
-          <div className="flex">
+          <div className="flex py-10">
             {testimonials.map((item) => (
               <div
                 key={item.id}
-                className="flex-[0_0_100%] md:flex-[0_0_50%] px-3"
+                className="flex-[0_0_100%] md:flex-[0_0_50%] px-3 "
               >
-                <div className="bg-white rounded-xl border shadow-sm p-6 h-full text-center">
+                <div className="bg-white rounded-xl border !border-gray-200 shadow-xl p-6 h-full text-center">
                   <h4 className="text-gray-500 leading-6 text-xl font-medium">
                     {item.heading}
                   </h4>
