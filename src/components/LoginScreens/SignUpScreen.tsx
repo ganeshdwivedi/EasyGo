@@ -1,9 +1,8 @@
-import React, { useState } from "react";
 import LogoWhite from "../Logos/LogoWhite";
 import SocialAuthButton from "../buttons/SocialBtn";
 import { useForm } from "react-hook-form";
 import axios, { AxiosError } from "axios";
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 interface SignUpFormValues {
   signUpMethod: "email" | "mobile";
@@ -20,7 +19,6 @@ const SignUpScreen = () => {
   const {
     register,
     setValue,
-    reset,
     watch,
     handleSubmit,
     formState: { errors },

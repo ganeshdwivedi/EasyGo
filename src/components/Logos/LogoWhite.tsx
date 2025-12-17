@@ -1,5 +1,3 @@
-import React from "react";
-
 type LogoSize = "sm" | "md" | "lg";
 
 interface LogoWhiteProps {

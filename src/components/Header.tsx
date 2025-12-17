@@ -1,5 +1,3 @@
-import React from "react";
-
 const BtnClass =
   "bg-[#1D7BD8] font-medium transition-transform transform-gpu hover:bg-[#2A2E55] cursor-pointer py-2 px-4 font-medium rounded-sm text-white";
 const Header = () => {

@@ -1,5 +1,3 @@
-import React from "react";
-
 const Service = () => {
   return (
     <section className="bg-[#242b4d] min-h-[500px] flex items-center justify-center px-4 md:px-32 py-20 rounded-2xl mx-2">

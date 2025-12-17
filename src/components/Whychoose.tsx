@@ -1,5 +1,3 @@
-import React from "react";
-
 const Whychoose = () => {
   return (
     <div className="w-full py-20 px-4 md:px-0">

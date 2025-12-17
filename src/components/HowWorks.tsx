@@ -1,5 +1,3 @@
-import React from "react";
-
 const steps = [
   { id: 1, label: "Login or Sign Up" },
   { id: 2, label: "Enter pickup and delivery details" },

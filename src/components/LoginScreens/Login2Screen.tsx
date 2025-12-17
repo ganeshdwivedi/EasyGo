@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import LogoWhite from "../Logos/LogoWhite";
 import { useForm } from "react-hook-form";
 import SocialAuthButton from "../buttons/SocialBtn";

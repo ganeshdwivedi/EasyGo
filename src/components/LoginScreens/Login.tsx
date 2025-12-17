@@ -1,5 +1,3 @@
-import React from "react";
-import Logo from "../Logos/Logo";
 import LogoWhite from "../Logos/LogoWhite";
 import { Link } from "react-router-dom";
 

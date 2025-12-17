@@ -1,5 +1,3 @@
-import React from "react";
-
 type ButtonSize = "sm" | "md" | "lg";
 
 interface AppleStoreBtnProps {

@@ -1,4 +1,3 @@
-import React from "react";
 import AppleStoreBtn from "./buttons/AppleStoreBtn";
 import PlayStoreBtn from "./buttons/PlayStoreBtn";
 import Logo from "./Logos/Logo";
